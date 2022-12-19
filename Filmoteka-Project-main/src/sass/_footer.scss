@@ -1,0 +1,21 @@
+.footer__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.students {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--link {
+    margin-left: 3px;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      animation: Glow 0.5s ease infinite alternate;
+    }
+  }
+}
